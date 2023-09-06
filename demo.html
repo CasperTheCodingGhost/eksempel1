@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eksempel 1</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="shittime.js"></script>
+</head>
+
+<body>
+    <h1>Eksempel 1</h1>
+    
+    <div>
+        <button onclick="noLayout()">Ingen layout</button>
+        <button onclick="verticalLayout()">Vertikal layout</button>
+        <button onclick="horizontalLayout()">Horisontal layout</button>
+        <button onclick="gridLayout()">Grid layout</button>
+    </div>
+
+
+
+    <div id="Page">
+
+        <div class="card">
+            <div class="header green" onclick="OpenTools()">Verktøy</div>
+            <div id="showTools1"></div>
+        </div>
+
+
+        <div class="card">
+            <div class="header blue" onclick="OpenHTML()"> HTML </div>
+            <div id="showHTML1"></div>
+        </div>
+
+
+        <div class="card">
+            <div class="header red" onclick="OpenCSS()"> CSS </div>
+            <div id="showCSS1"></div>
+        </div>
+
+
+        <div class="card">
+            <div class="header yellow" onclick="OpenJavaScript()"> JavaScript </div>
+            <div id="showJavaScript1"></div>
+        </div>
+
+
+        <div class="card">
+            <div class="header dark" onclick="OpenCardGame()"> Hode, kropp og ben</div>
+            <div id="showCardGame1"></div>
+        </div>
+    </div>
+</body>
+
+</html>
